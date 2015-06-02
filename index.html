@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/css/bootstrap2/bootstrap-switch.min.css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/default.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="form_area">
+        <div class="container">
+            <div class="col-md-12">
+                <form action="#" method="post" class="">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="accommodation">Accommodation</label>
+                        </div>
+                        <div class="col-md-9">
+                            <select name="" id="accommodation" class="form-control rv">
+                                <option value="">RV</option>
+                                <option value="">DV</option>
+                                <option value="">CK</option>
+                                <option value="">SK</option>
+                                <option value="">DM</option>
+                                <option value="">TB</option>
+                                <option value="">FB</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row fom-inline">
+                        <div class="col-md-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <select name="" id="" class="form-control">
+                                        <option value="">Mr.</option>
+                                        <option value="">Mrs.</option>
+                                        <option value="">Ms.</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-5">
+                                    <input type="text" name="fname" id="" placeholder="First Name " class="form-control">
+                                </div>
+                                <div class="col-md-5">
+                                    <input type="text" name="lname" id="" placeholder="Last Name " class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-inline">
+                        <div class="col-md-3">
+                            <label for="gusts">Guests</label>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <input type="number" name="" id="" placeholder="18+ years" class="form-control">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="number" name="" id="" class="form-control" placeholder="2-17 years">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="number" name="" id="" class="form-control" placeholder="<2 years">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-md-9">
+                            <input type="email" name="" id="" placeholder="E-mail" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9 col-md-offset-3">
+                            <input type="tel" name="" id="" placeholder="Phone: (xxx)-xxx xxxx" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="datepicker-example1">Checkin</label>
+                                </div>
+                                <div class="col-md-6">
+
+                                    <form action="javascript:void(0)" method="post">
+                                        <div>
+                                            <input id="datepicker-example1" type="text" class="form-control">
+                                        </div>
+                                    </form>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="datepicker-example2">Checkout</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <form action="javascript:void(0)" method="post">
+                                        <div>
+                                            <input id="datepicker-example2" type="text" class="form-control">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="">Equipment Type</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="" id="" class="form-control">
+                                        <option value="">Chair</option>
+                                        <option value="">Table</option>
+                                        <option value="">Bed</option>
+                                        <option value="">Sofa</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="">Slide-outs</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="make-switch">
+                                        <input type="checkbox" checked="true" class="probeProbe" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="service">Required Service</label>
+                        </div>
+                        <div class="col-md-9">
+                            <select name="" id="service" class="form-control">
+                                <option value="">None Selected</option>
+                                <option value="">Chair</option>
+                                <option value="">Table</option>
+                                <option value="">Bed</option>
+                                <option value="">Sofa</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="pet">Pets</label>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="make-switch">
+                                <input type="checkbox" checked="true" class="probeProbe" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="comments">Comments</label>
+                        </div>
+                        <div class="col-md-9">
+                            <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9 col-md-offset-3">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <button class="btn btn-info">Request Reservation</button>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <button class="btn btn-danger">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/js/bootstrap-switch.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/zebra_datepicker.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+</body>
+
+</html>
