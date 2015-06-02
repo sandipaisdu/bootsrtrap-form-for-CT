@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F2F2F2;
+}
+.header_area{
+	background-color: #448BCB;
+	min-height: 40px;
+	color: #fff;
+}
+.line{
+	margin-top:5px;
+	margin-bottom: 5px; 
+}
